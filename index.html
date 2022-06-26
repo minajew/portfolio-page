@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tomasz Minajew - grafik, web developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+  <div class="max-width-container">
+
+    <!-- Nawigacja mobile -->
+    <nav class="mobile-nav">
+      <span class="logo">Minajew</span>
+      <button id="mobile-menu-open" class="mobile-menu-btn">
+        <img class="mobile-nav-icon" src="./img/menu-mobile-icon.svg" alt="">
+      </button>
+    </nav>
+
+    <!-- Nawigacja dekstop -->
+    <nav class="desktop-nav">
+      <span class="logo">Minajew</span>
+      <ul class="menu-desktop">
+        <li><a href="#about">O mnie</a></li>
+        <li><a href="#services">Usługi</a></li>
+        <li><a href="#projects">Projekty</a></li>
+        <li><a href="#testimonials">Opinie</a></li>
+        <li><a class="btn-primary" href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+    <!-- Pupup menu -->
+    <div id="overlay-menu" class="popup-menu">
+      <div class="popup-nav">
+        <span class="logo">Minajew</span>
+        <button id="mobile-menu-close" class="mobile-menu-btn">
+          <img class="mobile-nav-icon" src="./img/close-icon.svg" alt="">
+        </button>
+      </div>
+      <ul class="popup-links">
+        <li><a class="popup-link" href="#about">O mnie</a></li>
+        <li><a class="popup-link" href="#services">Usługi</a></li>
+        <li><a class="popup-link" href="#projects">Projekty</a></li>
+        <li><a class="popup-link" href="#testimonials">Opinie</a></li>
+        <li><a class="popup-link" class="btn-primary" href="#contact">Kontakt</a></li>
+      </ul>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <img class="header-img" src="./img/header-img-ok.png" alt="">
+      <div class="header-copy">
+
+        <div class="heading">
+          <h1>Cześć, jestem Tomasz. Tworzę <span class="changing-text">strony internetowe</span></h1>
+        </div>
+
+        <div class="header-buttons">
+          <a href="#contact" class="btn-primary">Kontakt</a>
+          <a href="#about" class="btn-secondary">Dowiedz się więcej <span class="header-icon"><img
+                src="./img/arrow-down.svg" alt=""></span></a>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+
+      <!-- Sekcja o mnie -->
+      <section id="about" class="about">
+        <div class="about-me">
+
+          <div class="about-content">
+            <div class="badge">
+              <span>O mnie</span>
+            </div>
+            <h2>Kilka słów o mnie</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit tortor, iaculis ornare faucibus a,
+              dapibus in nulla. Pellentesque habitant.
+              <br><br>
+              Morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus eget libero id massa
+              vehicula blandit.
+            </p>
+
+            <div class="about-links">
+              <a href="https://www.linkedin.com/in/minajew/" target="_blank" class="about-link"><img
+                  src="./img/linkedin-icon.svg" alt=""></a>
+
+
+            </div>
+          </div>
+
+          <div class="skills">
+
+            <div class="tools">
+
+              <div class="tools-heading">
+                <span class="tools-icon"><img src="./img/tools-icon.svg" alt=""></span>
+                <h2>Użwane narzędzia</h2>
+              </div>
+
+              <div class="tools-icons">
+                <img src="./img/ps-icon.svg" alt="">
+                <img src="./img/ai-icon.svg" alt="">
+                <img src="./img/figma-icon.svg" alt="">
+                <img src="./img/vsc-icon.svg" alt="">
+              </div>
+
+            </div>
+
+            <div class="stack">
+
+              <div class="stack-heading">
+                <span class="stack-icon"><img src="./img/tools-icon.svg" alt=""></span>
+                <h2>Użwane narzędzia</h2>
+              </div>
+
+              <div class="stack-icons">
+                <img src="./img/html-icon.svg" alt="">
+                <img src="./img/css-icon.svg" alt="">
+                <img src="./img/js-icon.svg" alt="">
+                <img src="./img/github-icon.svg" alt="">
+                <img src="./img/tw-icon.svg" alt="">
+              </div>
+
+            </div>
+
+          </div>
+
+      </section>
+
+      <section id="services" class="services">
+        <div class="services-heading">
+          <div class="badge">
+            <span>Usługi</span>
+          </div>
+          <h2>Czym się zajmuję?</h2>
+        </div>
+
+        <div class="services-cards">
+          <div class="service-card">
+            <span class="service-card-icon"><img src="./img/service-design.svg" alt=""></span>
+            <h2>Front end</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit tortor, adipiscing elit.</p>
+          </div>
+
+          <div class="service-card">
+            <span class="service-card-icon"><img src="./img/service-frontend.svg" alt=""></span>
+            <h2>Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit tortor, adipiscing elit.</p>
+          </div>
+        </div>
+
+      </section>
+
+      <secion id="projects" class="projects">
+
+        <div class="projects-heading">
+          <div class="badge">
+            <span>Projekty</span>
+          </div>
+          <h2>Zobacz wyróżnione projekty</h2>
+        </div>
+
+        <div class="projects-select">
+
+          <button id="highlighted-btn" class="project-btn project-selected">Wyróżnione</button>
+          <button id="frontend-btn" class="project-btn project-select">Front End</button>
+          <button id="design-btn" class="project-btn project-select">Design</button>
+
+        </div>
+
+        <div id="highlighted-projects">
+          <div class="project-cards">
+
+            <div class="project-card">
+              <div class="project-img"><img src="./img/project2.jpeg" alt=""></div>
+              <div class="project-content">
+                <h3>Inflappka</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit. orem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Aliquam velit.</p>
+                <a href="./inflappka-casestudy.pdf" target="_blank" class="btn-primary">Przeczytaj Case Study</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-img"><img src="./img/project1.jpeg" alt=""></div>
+              <div class="project-content">
+                <h3>Projekt Apollo</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit. orem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Aliquam velit.</p>
+                <a href="./inflappka-casestudy.pdf" target="_blank" class="btn-primary">Przeczytaj Case Study</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-img"><img src="./img/project3.jpeg" alt=""></div>
+              <div class="project-content">
+                <h3>Projekt Mars</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit. orem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Aliquam velit.</p>
+                <a href="./inflappka-casestudy.pdf" target="_blank" class="btn-primary">Przeczytaj Case Study</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div id="frontend-projects">
+          <div class="project-cards">
+
+            <div class="project-card">
+              <div class="project-img"><img src="./img/project2.jpeg" alt=""></div>
+              <div class="project-content">
+                <h3>Projekt strony</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit...</p>
+                <a href="#" class="btn-primary">Czytaj dalej</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-img"><img src="./img/project1.jpeg" alt=""></div>
+              <div class="project-content">
+                <h3>Zakodowanie landing page</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit...</p>
+                <a href="#" class="btn-primary">Czytaj dalej</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-img"><img src="./img/project3.jpeg" alt=""></div>
+              <div class="project-content">
+                <h3>Zakodowanie Frontendowy</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit...</p>
+                <a href="#" class="btn-primary">Czytaj dalej</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div id="design-projects">
+          <div class="project-cards">
+
+            <div class="project-card">
+              <div class="project-img"><img src="./img/project2.jpeg" alt=""></div>
+              <div class="project-content">
+                <h3>Projekt Falcon</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit...</p>
+                <a href="#" class="btn-primary">Czytaj dalej</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-img"><img src="./img/project1.jpeg" alt=""></div>
+              <div class="project-content">
+                <h3>Projekt Apollo</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit...</p>
+                <a href="#" class="btn-primary">Czytaj dalej</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-img"><img src="./img/project3.jpeg" alt=""></div>
+              <div class="project-content">
+                <h3>Projekt Mars</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit...</p>
+                <a href="#" class="btn-primary">Czytaj dalej</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <!-- <div class="pagination">
+          <div class="dot"></div>
+          <div class="dot-active"></div>
+          <div class="dot"></div>
+        </div> -->
+
+      </secion>
+
+      <section id="testimonials" class="testimonials">
+
+        <div class="testimonial-heading">
+          <div class="badge">
+            <span>Opinie</span>
+          </div>
+          <h2>Co mówią o mnie Klienci?</h2>
+        </div>
+
+        <div class="my-slider">
+
+          <div>
+            <div class="testimonial-card">
+              <span class="testimonial-logo"><img src="./img/workation-logo-white.svg" alt=""></span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
+                molestiae. Numquam corrupti in laborum sed rerum et corporis.</p>
+              <div class="testimonial-person">
+                <div class="testimonial-avatar"></div>
+                <span>Marek Mostowiak</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial-card">
+              <span class="testimonial-logo"><img src="./img/workation-logo-white.svg" alt=""></span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
+                molestiae. Numquam corrupti in laborum sed rerum et corporis.</p>
+              <div class="testimonial-person">
+                <div class="testimonial-avatar"></div>
+                <span>Marek Mostowiak</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="testimonial-card">
+              <span class="testimonial-logo"><img src="./img/workation-logo-white.svg" alt=""></span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias
+                molestiae. Numquam corrupti in laborum sed rerum et corporis.</p>
+              <div class="testimonial-person">
+                <div class="testimonial-avatar"></div>
+                <span>Marek Mostowiak</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </section>
+
+      <section id="contact" class="contact">
+
+        <div class="contact-content">
+          <div class="badge">
+            <span>O mnie</span>
+          </div>
+          <div class="contact-options">
+            <h2>Skontaktuj się ze mną<br>w wygodny sposób</h2>
+            <p>
+              <a href="tel:+48505673271">+48 505 673 271</a><br>
+              <a href="mailto:tomasz@minajew.pl">tomasz@minajew.pl</a>
+            </p>
+
+            <div class="about-links">
+              <a href="https://www.linkedin.com/in/minajew/" target="_blank" class="about-link"><img
+                  src="./img/linkedin-icon.svg" alt=""></a>
+
+
+            </div>
+          </div>
+        </div>
+
+
+        <form class="contact-form" action="https://formsubmit.co/4f6c22aa677a5bd0b26fa86214240ba4" method="POST">
+          <input type="text" name="name" placeholder="Imię i nazwisko" required>
+          <input type="email" name="email" placeholder="E-mail" required>
+          <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+          <input type="hidden" name="_subject" value="Nowy mail ze strony!">
+
+          <textarea placeholder="Twoja wiaomość..." class="form-control" name="message" rows="10" required></textarea>
+
+          <button class="btn-primary" type="submit">Wyślij wiadomość</button>
+        </form>
+
+
+      </section>
+
+    </main>
+  </div>
+
+  <footer>
+    <p>Tomasz Minajew 2022</p>
+    <a href="mailto:tomasz@minajew.pl">tomasz@minajew.pl</a>
+    <a href="tel:+48505673271">+48 505 673 271</a>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
